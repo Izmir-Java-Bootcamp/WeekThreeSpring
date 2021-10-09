@@ -1,15 +1,15 @@
 package com.kodluyoruz.WeekThreeSpring.service;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.Scanner;
 
-@Service
 public class InputService {
-    private Scanner scanner;
+    private final Scanner scanner;
 
-    public InputService(Scanner scanner) {
-        this.scanner = scanner;
+    public InputService(Scanner inScanner) {
+        this.scanner = inScanner;
     }
 
     public void testInput(){
