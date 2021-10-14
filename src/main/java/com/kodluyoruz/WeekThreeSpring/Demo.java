@@ -32,7 +32,7 @@ public class Demo implements CommandLineRunner {
 //        System.out.println("Input: " + input);
 //
 //        inputTaker();
-//        service.testInput();
+        service.testInput();
 
         discountServices.forEach(DiscountService::discount);
 
